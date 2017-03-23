@@ -1,0 +1,23 @@
+.mid{
+	display: block;
+}
+.leftSide{
+	float: left;
+	height: 900px;
+}
+.center{
+	margin-left: 27px;
+	margin-bottom: 27px;
+	float: left;
+	width: 76%;
+}
+.blocks div{
+	height: 163px;
+	width: 218px;
+	font-size: 21px;
+}
+.rightSide{
+	width: 100%;
+	height: 7em;
+	text-align: left;
+}

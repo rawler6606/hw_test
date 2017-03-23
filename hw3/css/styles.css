@@ -1,0 +1,22 @@
+@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Roboto.ttf);
+}
+h1{
+	padding-top: 200px;
+	font-family: Roboto;
+}
+ul{
+	background-color: #878787;
+	list-style: oriya;
+	font-size: 25px;
+	color: #FFF;
+	position: absolute;
+	top: -195px;
+	transition: 1s;
+}
+ul:hover{
+	top: -25px;
+	background-color: #e8d4bb;
+	color: #634463;
+}

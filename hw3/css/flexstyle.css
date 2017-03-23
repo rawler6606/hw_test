@@ -1,0 +1,30 @@
+body *{
+	background-color: #8d2fbf;
+	box-sizing: border-box;
+}
+.up{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+.up div{
+	margin: 18px;
+	background-color: #4a1766;
+	height: 300px;
+	width: 250px;
+}
+.down div{
+	margin-bottom: 18px;
+	margin-left: 18px;
+	background-color: #4a1766;
+	height: 250px;
+	/*width: 1315px*/
+	width:calc( 100% - 36px);
+
+}
+.all div{
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-between;
+}
